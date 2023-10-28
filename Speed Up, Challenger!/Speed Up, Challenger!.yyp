@@ -34,10 +34,11 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"wrap_horizontal","path":"scripts/wrap_horizontal/wrap_horizontal.yy",},},
     {"id":{"name":"Opponent_standin","path":"sprites/Opponent_standin/Opponent_standin.yy",},},
     {"id":{"name":"spr_track","path":"sprites/spr_track/spr_track.yy",},},
     {"id":{"name":"Opponent","path":"objects/Opponent/Opponent.yy",},},
-    {"id":{"name":"WrapController","path":"objects/WrapController/WrapController.yy",},},
+    {"id":{"name":"Challenger","path":"objects/Challenger/Challenger.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
