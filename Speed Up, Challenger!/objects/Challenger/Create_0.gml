@@ -30,3 +30,6 @@ possible_speed_up_keys = [
 "Y",
 "Z",
 ]
+
+color_list = [c_aqua, c_red, c_black, c_lime, c_yellow, c_blue];
+image_blend = c_orange;

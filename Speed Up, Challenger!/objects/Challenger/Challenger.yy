@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Challenger_standin",
-    "path": "sprites/Challenger_standin/Challenger_standin.yy",
+    "name": "Opponent_standin",
+    "path": "sprites/Opponent_standin/Opponent_standin.yy",
   },
   "spriteMaskId": null,
   "visible": true,
