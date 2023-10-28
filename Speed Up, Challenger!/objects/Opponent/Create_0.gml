@@ -3,8 +3,8 @@
 randomize();
 
 // Lowest possible opponent speed
-min_speed = 1;
-max_range = 2;
+min_speed = 0.5;
+max_range = 1.5;
 
 // Choose a speed between min speed and min speed plus max random
 increment = min_speed + random(max_range);
