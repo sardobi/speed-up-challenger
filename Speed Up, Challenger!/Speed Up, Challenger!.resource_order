@@ -24,5 +24,7 @@
     {"name":"Announcer","order":2,"path":"objects/Announcer/Announcer.yy",},
     {"name":"spr_track","order":1,"path":"sprites/spr_track/spr_track.yy",},
     {"name":"Challenger","order":1,"path":"objects/Challenger/Challenger.yy",},
+    {"name":"Finish_line","order":2,"path":"objects/Finish_line/Finish_line.yy",},
+    {"name":"finish_line","order":2,"path":"sprites/finish_line/finish_line.yy",},
   ],
 }

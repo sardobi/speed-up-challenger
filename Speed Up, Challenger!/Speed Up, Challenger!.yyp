@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -34,6 +34,7 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"wrap_horizontal","path":"scripts/wrap_horizontal/wrap_horizontal.yy",},},
     {"id":{"name":"snd_this_is_a_race","path":"sounds/snd_this_is_a_race/snd_this_is_a_race.yy",},},
     {"id":{"name":"Opponent_standin","path":"sprites/Opponent_standin/Opponent_standin.yy",},},
@@ -45,7 +46,9 @@
     {"id":{"name":"Opponent","path":"objects/Opponent/Opponent.yy",},},
     {"id":{"name":"snd_speed_up_challenger","path":"sounds/snd_speed_up_challenger/snd_speed_up_challenger.yy",},},
     {"id":{"name":"Challenger","path":"objects/Challenger/Challenger.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"main_font","path":"fonts/main_font/main_font.yy",},},
+    {"id":{"name":"Finish_line","path":"objects/Finish_line/Finish_line.yy",},},
+    {"id":{"name":"finish_line","path":"sprites/finish_line/finish_line.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

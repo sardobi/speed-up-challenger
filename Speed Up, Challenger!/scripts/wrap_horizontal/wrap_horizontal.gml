@@ -2,6 +2,7 @@
 function wrap(){
 	if x > room_width {
 		x -= room_width
+		lap_counter += 1;
 	}
 
 	if x < 0 {

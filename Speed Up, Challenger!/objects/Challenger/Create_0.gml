@@ -38,3 +38,6 @@ speed_up_key = possible_speed_up_keys[irandom(array_length(possible_speed_up_key
 
 // Set sprint color
 image_blend = c_orange;
+
+// Count your laps
+lap_counter = 0;
