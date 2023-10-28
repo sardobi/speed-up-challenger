@@ -13,3 +13,6 @@ image_speed = (increment/(min_speed+max_range))
 
 color_list = [c_aqua, c_red, c_black, c_lime, c_yellow, c_blue];
 image_blend = color_list[irandom(array_length(color_list)-1)];
+
+// Count your laps
+lap_counter = 0;
