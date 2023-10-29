@@ -1,8 +1,7 @@
 /// @desc  Whether, among the given keys, one and only one particular key was pressed.
-/// @param {array} keys Array of characters for the keys to consider
 /// @param {String} choice The key to check
 /// @returns {bool} Whether it alone was pressed
-function is_lone_key_pressed(keys, choice)
+function is_lone_key_pressed(choice)
 {
 	// Ensure choice was pressed
 	if !keyboard_check_pressed(ord(choice)) {
@@ -10,8 +9,8 @@ function is_lone_key_pressed(keys, choice)
 	}
 	
 	// Ensure no other key held down
-	for (i = 0; i < array_length(keys); i++) {
-		var key = keys[i]
+	for (var i = 0; i < array_length(global.possible_speed_up_keys); i++) {
+		var key = global.possible_speed_up_keys[i]
 		
 		if (key == choice)
 		{
@@ -25,4 +24,23 @@ function is_lone_key_pressed(keys, choice)
 	}
 	
 	return true
+}
+
+
+//@desc Check if the player is button mashing
+//@returns {bool} Whether multiple keys are being pressed
+function is_button_mashing()
+{
+	var check_sum = 0;
+	// Ensure no other key held down
+	for (var i = 0; i < array_length(global.possible_speed_up_keys); i++) {
+		var key = global.possible_speed_up_keys[i]
+		
+		if keyboard_check(ord(key))
+		{
+			check_sum++
+		}
+	}
+	
+	return (check_sum > 1)
 }

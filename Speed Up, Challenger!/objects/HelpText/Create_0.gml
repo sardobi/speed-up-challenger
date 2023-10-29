@@ -8,3 +8,8 @@ flash_counter = flash_interval
 
 // Whether the flashing text is currently visible
 is_text_visible = true
+
+//Checks if the player is button mashing
+is_extra_text_visible = false;
+button_mashing_counter = 0;
+button_mashing_counter_max = 60;
