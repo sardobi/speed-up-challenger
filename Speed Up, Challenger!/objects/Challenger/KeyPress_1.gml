@@ -1,6 +1,6 @@
 /// @description Decide if a keypress speeds up
 
-if keyboard_check_pressed(ord(speed_up_key))
+if is_lone_key_pressed(possible_speed_up_keys, speed_up_key)
 {
 	increment += 0.5
 	

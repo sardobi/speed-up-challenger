@@ -39,6 +39,7 @@
     {"id":{"name":"Music","path":"objects/Music/Music.yy",},},
     {"id":{"name":"snd_this_is_a_race","path":"sounds/snd_this_is_a_race/snd_this_is_a_race.yy",},},
     {"id":{"name":"Opponent_standin","path":"sprites/Opponent_standin/Opponent_standin.yy",},},
+    {"id":{"name":"is_lone_key_pressed","path":"scripts/is_lone_key_pressed/is_lone_key_pressed.yy",},},
     {"id":{"name":"snd_press_the_button","path":"sounds/snd_press_the_button/snd_press_the_button.yy",},},
     {"id":{"name":"snd_you_can_do_it","path":"sounds/snd_you_can_do_it/snd_you_can_do_it.yy",},},
     {"id":{"name":"snd_extra_fast","path":"sounds/snd_extra_fast/snd_extra_fast.yy",},},
