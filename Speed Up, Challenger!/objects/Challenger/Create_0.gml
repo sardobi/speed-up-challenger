@@ -39,9 +39,7 @@ global.possible_speed_up_keys = [
 "7",
 "8",
 "9",
-"0",
-"-",
-"+"
+"0"
 ]
 
 // Choose initial "speed up" key
