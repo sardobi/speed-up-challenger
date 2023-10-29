@@ -2,8 +2,8 @@
 
 - [ ] Title screen
 - [ ] Countdown to race start
-- [ ] Lose condition when other players all complete however many laps
-- [ ] Patronising "Good effort" screen when losing (golf clap?)
+- [ ] Implement race end (when other players all complete however many laps)
+- [ ] "Good effort" screen when losing (with supportive golf clap)
 - [ ] More pop-up prompts to speed up
-- [ ] Patronising floating arrow pointing to the Challenger after a certain amount of time still
-- [ ] Confusing animated button prompt (e.g. showing a button with `FAST` written on it)
+- [ ] Helpful floating arrow pointing to the Challenger after a certain amount of time still
+- [ ] Animated button prompt to help visualise how to press the `FAST` button
