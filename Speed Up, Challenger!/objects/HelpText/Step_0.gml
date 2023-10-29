@@ -6,7 +6,23 @@ if flash_counter == 0
 	is_text_visible = !is_text_visible
 
 	flash_counter = flash_interval
+	
+	if(button_mashing_counter <= 0){
+		is_extra_text_visible = false
+	}
 } else
 {
 	flash_counter --
+}
+
+
+
+if (is_button_mashing()) {
+	button_mashing_counter = button_mashing_counter_max
+	is_extra_text_visible = true
+}
+
+
+if (button_mashing_counter != 0) {
+	button_mashing_counter--
 }

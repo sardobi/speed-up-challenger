@@ -3,8 +3,7 @@
 // Initialise speed - player starts stationary
 increment = 0
 
-// List of possible key choices for the "speed up" key
-possible_speed_up_keys = [
+global.possible_speed_up_keys = [
 "A",
 "B",
 "C",
@@ -46,7 +45,7 @@ possible_speed_up_keys = [
 ]
 
 // Choose initial "speed up" key
-speed_up_key = possible_speed_up_keys[irandom(array_length(possible_speed_up_keys) - 1)]
+speed_up_key = global.possible_speed_up_keys[irandom(array_length(global.possible_speed_up_keys) - 1)]
 
 // Set sprint color
 image_blend = c_orange;

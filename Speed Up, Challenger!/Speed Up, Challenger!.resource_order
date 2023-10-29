@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"Music","order":4,"path":"objects/Music/Music.yy",},
     {"name":"snd_this_is_a_race","order":3,"path":"sounds/snd_this_is_a_race/snd_this_is_a_race.yy",},
+    {"name":"is_lone_key_pressed","order":1,"path":"scripts/is_lone_key_pressed/is_lone_key_pressed.yy",},
     {"name":"snd_press_the_button","order":1,"path":"sounds/snd_press_the_button/snd_press_the_button.yy",},
     {"name":"snd_you_can_do_it","order":4,"path":"sounds/snd_you_can_do_it/snd_you_can_do_it.yy",},
     {"name":"snd_extra_fast","order":2,"path":"sounds/snd_extra_fast/snd_extra_fast.yy",},
