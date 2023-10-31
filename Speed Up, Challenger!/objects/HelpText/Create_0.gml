@@ -13,3 +13,6 @@ is_text_visible = true
 is_extra_text_visible = false;
 button_mashing_counter = 0;
 button_mashing_counter_max = 60;
+
+//Calculate the text position
+text_x = lerp(camera_get_view_x(view_camera[0]),camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]), 0.5);

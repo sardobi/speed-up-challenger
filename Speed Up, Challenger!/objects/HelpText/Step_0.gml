@@ -15,8 +15,6 @@ if flash_counter == 0
 	flash_counter --
 }
 
-
-
 if (is_button_mashing()) {
 	button_mashing_counter = button_mashing_counter_max
 	is_extra_text_visible = true
@@ -26,3 +24,5 @@ if (is_button_mashing()) {
 if (button_mashing_counter != 0) {
 	button_mashing_counter--
 }
+
+text_x = lerp(camera_get_view_x(view_camera[0]),camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0]), 0.5);

@@ -7,9 +7,11 @@ if is_text_visible
 	
 	draw_set_halign(fa_center)
 	
-	draw_text(lerp(0, room_width, 0.5), y - 16, "Press the fast button!")
+	//Draw the "Press" text
+	draw_text(text_x, y - 16, "Press the fast button!")
+	//Draw the extra text
 	if(is_extra_text_visible){
-		draw_text(lerp(0,room_width, 0.5), y - 4, "Only one fast button!")
+		draw_text(text_x, y - 4, "Only one fast button!")
 		
 	}
 	
